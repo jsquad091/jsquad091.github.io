@@ -11,7 +11,8 @@ header, footer {
     text-align: center;
     color: white;
     font-family: 'American Typewriter', serif;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: .50em 1.5em .50em 5em;
 }
 
 body {
