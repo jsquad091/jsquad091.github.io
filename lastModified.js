@@ -1,3 +1,3 @@
 let lastmodified = document.lastModified;
 
-document.getElementById("lastmodified").innerHTML = lastmodified;
+document.getElementById("lastmod").innerHTML = lastmodified;
