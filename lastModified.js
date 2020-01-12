@@ -1,3 +1,3 @@
-let lastmodified = document.lastModified;
+let lastModified = document.lastModified;
 
-document.getElementById("lastmod").innerHTML = lastmodified;
+document.getElementById("lastmod").innerHTML = lastModified;
