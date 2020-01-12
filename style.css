@@ -2,12 +2,9 @@
     margin: 0 auto;
     max-width: 960;
 }
-header {
+header, footer {
     background-color: red;
     justify-content: center;
-
-}
-footer {
     background-color: red;
     border-radius: 15px;
     text-align: center;
