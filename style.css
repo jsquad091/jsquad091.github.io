@@ -1,6 +1,6 @@
 #content {
     margin: 0 auto;
-    max-width: 960;
+    max-width: 960px;
 }
 header, footer {
     background-color: red;
@@ -11,4 +11,7 @@ header, footer {
 }
 body {
     margin: 0 auto;
+}
+img {
+    align-items: left;
 }
