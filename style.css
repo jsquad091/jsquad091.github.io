@@ -1,7 +1,10 @@
-header (
+header {
     background-color: red;
 
-)
-footer (
+}
+footer {
     background-color: red;
-)
+}
+body {
+    margin: 0 auto;
+}
