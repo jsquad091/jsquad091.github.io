@@ -1,0 +1,27 @@
+#content {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+header, footer {
+    background-color: red;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'American Typewriter', serif;
+    border-radius: 20px;
+    padding: .50em 1.5em .50em 5em;
+}
+
+body {
+    margin: 3em;
+    background-color: white;
+}
+
+a {
+    color: blue;
+}
+
+footer a {
+    color: white;
+}
