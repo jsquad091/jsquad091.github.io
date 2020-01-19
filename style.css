@@ -20,6 +20,18 @@ body {
     background-color: white;
 }
 
+.first {
+    grid-row: 0/1;
+    grid-column: 0/1;
+}
+.second {
+    grid-row: 0/1;
+    grid-column: 1/2;
+}
+.third {
+    grid-row: 0/1;
+    grid-column: 2/3;
+}
 a {
     color: blue;
 }
