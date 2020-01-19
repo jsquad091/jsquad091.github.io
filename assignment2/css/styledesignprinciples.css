@@ -45,3 +45,15 @@ nav ul {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.first {
+    grid-row: 0/1;
+    grid-column: 0/1;
+}
+.second {
+    grid-row: 0/1;
+    grid-column: 1/2;
+}
+.third {
+    grid-row: 0/1;
+    grid-column: 2/3;
+}
