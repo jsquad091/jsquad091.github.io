@@ -28,3 +28,6 @@ footer {
 img {
     max-width: 315px;
 }
+.wfirst, .cfirst {
+    align-content: center;
+}
