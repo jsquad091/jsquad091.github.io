@@ -25,3 +25,17 @@ a {
 footer a {
     color: white;
 }
+
+/*
+Medium
+*/
+@media (max-width: 500px) {
+
+}
+
+/*
+Small
+*/
+@media (max-width: 250px) {
+    
+}
