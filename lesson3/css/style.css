@@ -6,10 +6,10 @@
 }
 
 header, footer {
-    background-color: skyblue;
+    background-color: whitesmoke;
     justify-content: center;
     text-align: center;
-    color: whitesmoke;
+    color: #9FFFF5;
     font-family: 'American Typewriter', serif;
     border-radius: 20px;
     padding: .50em 1.5em .50em 5em;
@@ -20,7 +20,7 @@ body {
     background-color: white;
 }
 a {
-    color: blue;
+    color: magenta;
 }
 
 footer a {
