@@ -329,6 +329,6 @@ nav ul li.active a {
   background-color: rgba(0,0,0,0.2);
   color: #fff;
 }
-nave ul.hide {
+nav ul.hide {
   display: none;
 }
