@@ -111,7 +111,7 @@ header {
 }
 .channels-paragraph-1 {
   grid-column: 3/6;
-  grid-row: 0/1
+  grid-row: 0/1;
 }
 .channels-headline-2 {
   grid-column: 2/3;
@@ -124,7 +124,7 @@ header {
 }
 .channels-paragraph-2 {
   grid-column: 3/6;
-  grid-row: 1/2
+  grid-row: 1/2;
 }
 .channels-headline-3 {
   grid-column: 2/3;
@@ -167,7 +167,7 @@ header {
 }
 .creator-paragraph-2 {
   grid-column: 3/5;
-  grid-row: 2/3
+  grid-row: 2/3;
 }
     
     .banner-box img {
@@ -290,7 +290,7 @@ nav button {
   background-color: transparent;
   border: none;
   font-size: 1.6rem;
-  color: #555
+  color: #555;
 }
 nav {
   background-color: #ccc;
@@ -314,6 +314,7 @@ nav ul li a {
 }
 nav ul li a:hover {
   background-color: rgba(0,0,0,0.4);
+  color: white;
 }
 nav ul li.active a {
   background-color: rgba(0,0,0,0.2);
@@ -332,7 +333,7 @@ nav ul.hide {
 .weathersummary {
     position: absolute;
     top: 1rem;
-    background: radial-gradient(green, lightgreen, white)
+    background: radial-gradient(green, lightgreen, white);
     border: 1px solid green;
     padding: .5rem;
     box-shadow: 0 0 30px #777;
