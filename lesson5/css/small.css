@@ -346,7 +346,7 @@ nav ul.hide {
 .flex {
 	display: flex;
     flex-direction: row;
-    max-width: 100px;
+    max-width: 120px;
 }
 
 .col {
@@ -356,7 +356,8 @@ nav ul.hide {
 	border-left: 1px solid #333;
 	background-color: #bed;
 	font-size: 13px;
-	text-align: center;
+    text-align: center;
+    max-width: 20px;
 }
 
 .flex div:last-child {
