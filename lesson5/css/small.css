@@ -333,7 +333,7 @@ nav ul.hide {
 .weathersummary {
     position: absolute;
     top: 1rem;
-    background: radial-gradient(green, lightgreen, white);
+    background: radial-gradient(green, blue, white);
     border: 1px solid green;
     padding: .5rem;
     box-shadow: 0 0 30px #777;
