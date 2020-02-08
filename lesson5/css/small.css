@@ -371,7 +371,6 @@ nav ul.hide {
 	font-size: 15px;
 	border-bottom: 1px solid #333;
     background-color: #eee;
-    max-width: 20px;
 }
 
 .flex div img, table img {
@@ -400,6 +399,10 @@ td {
 	background-color: #bed;
 	font-size: 13px;
 	text-align: center;
+}
+
+.icon {
+    max-width: 60px;
 }
 .clearfix:after {
     content: "";
