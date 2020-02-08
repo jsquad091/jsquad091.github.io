@@ -274,17 +274,6 @@ textarea {
   height: 5em;
 
 }                    
-.card {
-  width: 320px;
-  box-shadow: 1px 1px 4px 1px #888;
-  border-radius: 3px;
-  background-color: white; 
-  overflow: hidden;
-  border-radius: 3px 0 0 3px;
-  padding: 5px;
-  border-color: #888;
-  padding: 5px;
-}
 nav button {
   margin: .2rem 2%;
   background-color: transparent;
@@ -408,4 +397,19 @@ td {
     content: "";
     display: table;
     clear: both;
+}
+.words {
+    display: block;
+    margin: 0 auto 2em auto;
+    padding: 10px;
+    color: lightskyblue;
+    width: 90%;
+    height: auto;
+    position: relative;
+    box-shadow: 1px 1px 3px black;
+}
+.author {
+    width: 90%;
+    margin: .2em auto;
+    padding: .5em;
 }
