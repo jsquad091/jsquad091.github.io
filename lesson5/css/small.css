@@ -398,3 +398,8 @@ td {
 	font-size: 13px;
 	text-align: center;
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
