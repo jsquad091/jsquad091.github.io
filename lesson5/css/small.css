@@ -421,6 +421,8 @@ td {
     padding: .5em;
 }
 .mainimg {
-    width: 100% auto;
-
+    width: 250px;
+}
+.valle {
+    width: 100%;
 }
