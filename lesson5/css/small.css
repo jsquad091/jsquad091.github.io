@@ -408,12 +408,12 @@ td {
     position: relative;
     box-shadow: 1px 1px 3px black;
 }
-.author {
+.paragraph {
     width: 90%;
     margin: .2em auto;
     padding: .5em;
 }
 .mainimg {
     width: 100% auto;
-    
+
 }
