@@ -297,7 +297,8 @@ td {
     padding: .5em;
 }
 .mainimg {
-    width: 450px;
+    width: 375px;
+    float: right;
 }
 .valle {
     width: 100%;
