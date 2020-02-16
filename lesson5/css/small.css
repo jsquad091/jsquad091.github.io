@@ -212,7 +212,6 @@ nav ul.hide {
 }
 .herodiv {
     position: relative;
-    border: 1px dashed cyan;
     margin: 10px auto;
 
 }
@@ -297,6 +296,7 @@ td {
     padding: .5em;
 }
 .mainimg {
+  display: none;
     width: 375px;
     float: right;
 }

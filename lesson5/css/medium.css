@@ -20,6 +20,10 @@ padding: .8rem 1rem;
 	.flex {
 		display: block;
 	}
+	.mainimg {
+		display: block;
+		float: right;
+	}
 
 
 
