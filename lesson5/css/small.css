@@ -306,3 +306,6 @@ td {
     width: 100%;
     max-width: 960px;
 }
+.contactinfo {
+  float: right;
+}
