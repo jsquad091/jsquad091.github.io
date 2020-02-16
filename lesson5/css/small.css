@@ -218,6 +218,7 @@ nav ul.hide {
 .flex {
 	display: none;
     flex-direction: row;
+    max-width: 160px;
 }
 
 .col {
@@ -228,6 +229,7 @@ nav ul.hide {
 	background-color: #bed;
 	font-size: 13px;
     text-align: center;
+    flex-direction: row;
 }
 
 .flex div:last-child {
