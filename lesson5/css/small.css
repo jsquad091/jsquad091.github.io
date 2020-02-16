@@ -10,7 +10,6 @@
 }
 .logo-box {
   height: 100px;
-  float: left;
 }
 .socialmedias {
   display: none;
@@ -306,6 +305,6 @@ td {
     width: 100%;
     max-width: 960px;
 }
-.contactinfo {
-  float: right;
+.hero2 {
+  float: left;
 }
