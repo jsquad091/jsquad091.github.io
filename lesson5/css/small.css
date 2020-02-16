@@ -229,7 +229,7 @@ nav ul.hide {
 	background-color: #bed;
 	font-size: 13px;
     text-align: center;
-    flex-direction: row;
+  display: flex;
 }
 
 .flex div:last-child {
