@@ -222,14 +222,12 @@ nav ul.hide {
 }
 
 .col {
-	flex: 1 1 100%;
 	border-top: 1px solid #333;
 	border-bottom: 1px solid #333;
 	border-left: 1px solid #333;
 	background-color: #bed;
 	font-size: 13px;
   text-align: center;
-  flex: 1 1 100%;
 }
 
 .flex div:last-child {
