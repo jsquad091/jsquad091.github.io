@@ -218,7 +218,6 @@ nav ul.hide {
 .flex {
 	display: none;
     flex-direction: row;
-    max-width: 160px;
 }
 
 .col {
