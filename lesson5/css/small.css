@@ -10,6 +10,7 @@
 }
 .logo-box {
   height: 100px;
+  float: left;
 }
 .socialmedias {
   display: none;
