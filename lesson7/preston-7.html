@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Daily Temperature</title>
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <aside>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.</aside>
+    <header>
+        <div class="logo-box"><img class="logo-box" src="images/temp_drop.png" alt="logo">
+        <h1 class="motto">Here for all your temperature needs</h1>
+        </div>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="preston-5.html">Home</a></li>
+                <li><a href="preston-5.html">Preston</a></li>
+                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a href="storm-center.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+<h2>Preston</h2>
+<div class="herodiv">
+
+    <figure class="valle">
+        <img class ="valle" src="images/originalvalle.jpeg" alt="valley" srcset="images/small.jpg 1x, images/medium.jpg 2x, images/large.jpg 3x">
+    </figure>
+    
+<section class="weathersummary">
+    <h3>Weather Summary</h3>
+    <p>Currently: Sunny</p>
+    <p>High: 73 F</p>
+    <p>Wind Chill:</p>
+    <p>Humidity: 23%</p>
+    <p>Wind Speed: 5 mph</p>
+</section>
+</div>
+    
+<div class="flex">
+	<div class="col">
+		<span class="label">Monday</span>
+		<img class="icon" src="images/cloudy.png" alt="cloudy">
+		<span class="data">77</span>
+	</div>
+	<div class="col">
+		<span class="label">Tuesday</span>
+		<img class="icon" src="images/forecast.png" alt="rain">
+		<span class="data">79</span>
+	</div>
+	<div class="col">
+		<span class="label">Wednesday</span>
+		<img class="icon" src="images/season.png" alt="sun">
+		<span class="data">83</span>
+	</div>
+	<div class="col">
+		<span class="label">Thursday</span>
+		<img class="icon" src="images/storm.png" alt="storm">
+		<span class="data">76</span>
+	</div>
+	<div class="col">
+		<span class="label">Friday</span>
+		<img class="icon" src="images/storm.png" alt="storm">
+		<span class="data">68</span>
+	</div>
+</div>
+<article class="words">
+    <img class="mainimg" src="images/traffic_preston.jpg" alt="traffic">
+    <div class="paragraphs">
+        <h3>Traffic Report</h3>
+        <h3>By Jaden D Garlitz</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum ornare neque, et faucibus eros feugiat sit amet. Sed nisi ante, bibendum eget metus at, hendrerit elementum neque. Proin porta nisl a purus condimentum vestibulum ut quis nisl. Nulla fermentum libero et dictum imperdiet. Donec nec lobortis massa, vel laoreet risus. Donec dapibus venenatis neque ut tincidunt. Maecenas gravida neque ac libero consectetur, ac auctor massa bibendum. Curabitur interdum purus ligula, nec venenatis urna vestibulum sed. Donec sit amet tellus et mauris posuere tincidunt sed in mi. Ut nec velit eu erat accumsan convallis lobortis quis ex. Fusce gravida elit massa, ut blandit lorem dapibus vitae. </p>
+        <p> Duis ac sem non libero tempor bibendum id vel metus. Donec interdum aliquet sapien, eget auctor tellus condimentum id. Maecenas accumsan, ex eu consectetur aliquam, sapien magna euismod orci, a semper enim diam sit amet elit. Duis convallis vulputate pellentesque. Phasellus sit amet ligula et arcu porttitor tempor et bibendum augue. Nunc malesuada faucibus interdum. Nullam tincidunt at augue elementum consequat. </p>
+
+    </div>
+</article>
+<section class="contact">
+    <div ="map">
+    <img class="hero2" src="images/prestonmap.png" alt="preston map">
+    </div> 
+        <div class="contactinfo">
+            <h3>The Daily Temperature</h3>
+            <p>
+                Address: 24 N Main, Preston, ID 83263<br>
+            </p>
+            <p>
+                Phone Number: (208) 123 - 4567
+            </p>
+            <p>
+                TheDailyTemp@temperature.com
+            </p>
+        </div>
+    </section>
+</main>
+    <footer>
+
+        <div>
+            <p id="pfoot">&copy; 2020 Temperature - Jaden Garlitz - CIT 230 -
+                <a href="terms.html">Terms of Use</a>
+                <a class="socialmedias" target="_blank" href="https://www.facebook.com"><img class="squares"
+                        src="https://cdn.glitch.com/9ccdee19-0bea-423a-bda1-d8f27cea3b9d%2Ffacebook.png?v=1570926475809"
+                        alt="Facebook"></a>
+                <a class="socialmedias" target="_blank" href="https://www.twitter.com"><img class="squares"
+                        src="https://cdn.glitch.com/9ccdee19-0bea-423a-bda1-d8f27cea3b9d%2Ftwitter.png?v=1570926469241"
+                        alt="Twitter"></a>
+                <a class="socialmedias" target="_blank" href="https://www.youtube.com"><img class="squares"
+                        src="https://cdn.glitch.com/9ccdee19-0bea-423a-bda1-d8f27cea3b9d%2Fyoutube.png?v=1570926481483"
+                        alt="YouTube"></a><br>
+                        <script src="js/getdate.js"></script>
+            </p>
+        </div>
+        <script src="js/toggle.js"></script>
+        <script src='js/friday.js'></script>
+    </footer>
+</body>
+
+</html>
