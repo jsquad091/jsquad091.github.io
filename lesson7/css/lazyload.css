@@ -1,9 +1,14 @@
+body {
+    font-size: 16px;
+}
+
 img {
     height: 400px;
     width: 300px;
-    border: 1px solid red;
+    border: 1px solid #333;
     padding: 2px;
     filter: blur(0em);
+    transition: filter 0.5em;
 }
 
 main {
