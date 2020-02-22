@@ -7,7 +7,7 @@
 }
 .container {margin: 1rem auto; display:grid; grid-template-columns: 1fr; max-width: 1048px;}
 
-img { width: 250px; height: auto; margin: .5rem;}
+main img { width: 250px; height: auto; margin: .5rem;}
 figcaption {font-size: smaller;}
 /* hover effect */
 /* rounded corners - boxmodel */
