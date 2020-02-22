@@ -2,6 +2,7 @@
 
 	main {
 		grid-template-columns: 1fr 1fr;
+		display: flex;
 	  }
 	nav button {
 		display: none;
