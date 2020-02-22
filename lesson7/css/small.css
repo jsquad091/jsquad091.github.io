@@ -23,6 +23,15 @@ figcaption {font-size: smaller;}
 .logo-box {
   height: 100px;
 }
+img {
+  border: 1px solid #333;
+  padding: 2px;
+  filter: blur(0em);
+  transition: filter 0.5em;
+}
+img[data-src] {
+  filter: blur(0.5em);
+}
 .socialmedias {
   display: none;
   max-width: 100%;
