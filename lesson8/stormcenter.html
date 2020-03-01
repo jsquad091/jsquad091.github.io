@@ -34,13 +34,13 @@
 <form method="get" action="thanks.html">
     <fieldset>
         <legend>My First Form</legend>
-        <label>First Name*<input type="text" name="fname" required pattern="[A-Za-z]{5}"></label>
-        <label>Last Name*<input type="text" name="lname" required pattern="[A-Za-z]{5}"></label>
-        <label>Phone*<input type="tel" name="phone" placeholder="1234567890"></label>
-        <label>Email<input type="email" name="email" placeholder="example@email.com" required></label>
-        <label>Zip Code*<input type="number" name="zipcode" required></label>
-        <label>Storm Date<input type="date" name="zipcode" required></label>
-        <label>Storm Type: </label>  
+        <label>First Name*<input type="text" name="fname" required pattern="[A-Za-z]{5}"></label><br>
+        <label>Last Name*<input type="text" name="lname" required pattern="[A-Za-z]{5}"></label><br>
+        <label>Phone*<input type="tel" name="phone" placeholder="1234567890"></label><br>
+        <label>Email<input type="email" name="email" placeholder="example@email.com" required></label><br>
+        <label>Zip Code*<input type="number" name="zipcode" required></label><br>
+        <label>Storm Date<input type="date" name="zipcode" required></label><br>
+        <label>Storm Type: </label>
         <input list="stormtype">  
         <datalist id="stormtype">  
             <option value="Flash Flood"/>  
@@ -48,26 +48,26 @@
             <option value="Hurricane"/>  
             <option value="Thunderstorm"/>  
             <option value="Tornado"/>  
-        </datalist>  
+        </datalist>  <br>
         <div>
             <input type="range" id="severity" name="severity"
                    min="0" max="10">
             <label for="severity">Storm Severity</label>
-        </div>
+        </div><br>
         <label for="region">Select Region:</label>
 
         <select id="region">
             <option value="preston">Preston</option>
             <option value="sodasprings">Soda Springs</option>
             <option value="fishhaven">Fish Haven</option>
-        </select>
+        </select><br>
 
         <div>User In Danger?</div>
             <label><input type="radio" name="yes" value="yes">Yes</label>
             <label><input type="radio" name="no" value="yes">No</label>
-            <label><input type="radio" name="maybe" value="yes">Maybe</label>
+            <label><input type="radio" name="maybe" value="yes">Maybe</label><br>
 
-        <label><input type="textarea" id="comments" name="comments" placeholder="Write additional comments here"></label>
+        <label>Additional Comments:<input type="textarea" id="comments" name="comments" placeholder="Write here..."></label>
         <label><button type="submit" name="submit"></button></label>
 
     </fieldset>
