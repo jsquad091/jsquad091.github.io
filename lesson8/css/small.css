@@ -342,3 +342,6 @@ article img {
   display: flex;
   align-items: center;
 }
+label {
+  font-size: 14px;
+}
