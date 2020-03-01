@@ -338,3 +338,7 @@ article img {
   filter: blur(0em);
   transition: filter 0.5s;
 }
+.severity {
+  display: flex;
+  align-items: center;
+}
