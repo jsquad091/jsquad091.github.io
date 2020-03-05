@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Daily Temperature</title>
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <aside>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.</aside>
+    <header>
+        <div class="logo-box"><img class="logo-box" src="images/temp_drop.png" alt="logo">
+        <h1 class="motto">Here for all your temperature needs</h1>
+        </div>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston-7.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+<h1>Storm Submission</h1>
+<form method="get" action="thanks.html">
+    <fieldset>
+        <legend>Storm Details</legend>
+        <label>First Name*<input type="text" name="fname" required pattern="[A-Za-z]{5}"></label><br>
+        <label>Last Name*<input type="text" name="lname" required pattern="[A-Za-z]{5}"></label><br>
+        <label>Phone*<input type="tel" name="phone" placeholder="1234567890"></label><br>
+        <label>Email<input type="email" name="email" placeholder="example@email.com" required></label><br>
+        <label>Zip Code*<input type="number" name="zipcode" required></label><br>
+        <label>Storm Date<input type="date" name="zipcode" required></label><br>
+        <label>Storm Type: </label>
+        <input list="stormtype">  
+        <datalist id="stormtype">  
+            <option value="Flash Flood"/>  
+            <option value="Hail"/>  
+            <option value="Hurricane"/>  
+            <option value="Thunderstorm"/>  
+            <option value="Tornado"/>  
+        </datalist>  <br>
+        <div class="severity">
+            <label for="severity">Storm Severity</label>
+            <input type="range" id="severity" name="severity" value="5" min="1" max="10" step="1" list="tickmarks">
+            <span id="stormvalue">5</span>
+        </div><br>
+        <label for="region">Select Region:</label>
+
+        <select id="region">
+            <option value="preston">Preston</option>
+            <option value="sodasprings">Soda Springs</option>
+            <option value="fishhaven">Fish Haven</option>
+        </select><br>
+
+        <label><div>User In Danger?</div><br></label>
+            <label><input type="radio" name="yes" value="yes">Yes</label><br>
+            <label><input type="radio" name="no" value="yes">No</label><br>
+            <label><input type="radio" name="maybe" value="yes">Maybe</label><br>
+
+        <label>Additional Comments:<input type="textarea" id="comments" name="comments" placeholder="Write here..."></label>
+        <label><button type="submit" name="submit"></button></label>
+
+    </fieldset>
+
+</form>
+</main>
+    <footer>
+
+        <div>
+            <p id="pfoot">&copy; 2020 Temperature - Jaden Garlitz - CIT 230 -
+                <a href="terms.html">Terms of Use</a>
+                <a class="socialmedias" target="_blank" href="https://www.facebook.com"><img class="squares"
+                        src="https://cdn.glitch.com/9ccdee19-0bea-423a-bda1-d8f27cea3b9d%2Ffacebook.png?v=1570926475809"
+                        alt="Facebook"></a>
+                <a class="socialmedias" target="_blank" href="https://www.twitter.com"><img class="squares"
+                        src="https://cdn.glitch.com/9ccdee19-0bea-423a-bda1-d8f27cea3b9d%2Ftwitter.png?v=1570926469241"
+                        alt="Twitter"></a>
+                <a class="socialmedias" target="_blank" href="https://www.youtube.com"><img class="squares"
+                        src="https://cdn.glitch.com/9ccdee19-0bea-423a-bda1-d8f27cea3b9d%2Fyoutube.png?v=1570926481483"
+                        alt="YouTube"></a><br>
+                        <script src="js/getdate.js"></script>
+            </p>
+        </div>
+        <script src="js/toggle.js"></script>
+        <script src='js/friday.js'></script>
+    </footer>
+</body>
+
+</html>
